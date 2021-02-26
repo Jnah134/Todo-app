@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+
+body {
+  background: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  background: rgb(1, 8, 68);
+}
+
+h1 {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 7rem;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.input-field {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  width: 12rem;
+  border-radius: 0.4rem;
+}
+
+.form-container .btn-submit {
+  padding: 0.6rem 1rem;
+  background: rgb(15, 185, 252);
+  color: white;
+  border-color: transparent;
+  border-radius: 0.4rem;
+}
+
+.type-danger {
+  background: rgb(245, 115, 115);
+}
+
+.type-success {
+  background: rgb(108, 179, 3);
+}
+
+.type-danger,
+.type-success {
+  color: #000;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+  border-radius: 0.4rem;
+  text-align: center;
+}
+
+.list-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: aqua;
+  color: rgb(0, 0, 0);
+  padding: 0 0.7rem;
+  border-radius: 0.4rem;
+  margin: 0.3rem 0;
+  width: 18rem;
+}
+
+.edit-item,
+.remove-item {
+  border-color: transparent;
+  background: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.remove-item {
+  color: rgb(255, 55, 55);
+}
+
+.edit-item {
+  color: rgb(253, 0, 253);
+}
+
+.clear-items {
+  background: rgb(253, 29, 29);
+  border-color: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+}
